@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Joan', serif;
+}
+
+.video {
+    text-align: center;
+    width: 650px;
+    height: 370px;
+    border: 20px solid black;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.controle {
+    text-align: center;
+    position: relative;
+    bottom: 210px;
+    width: 70%;
+    left: 15%;
+    background-color: white;
+
+}
+
+.btn {
+    position: relative;
+    width: 30px;
+    margin: 10px;
+    top: 80%;
+}
+
+.controle {
+    opacity: 0;
+}
+
+.controle:hover {
+    opacity: 100%;
+}
+
+.video:hover{
+    box-shadow: 0 0 1em black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    margin-right: 10px;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    width: 140px;
+    height: 510px;
+    background-color: black;
+}
+
+.imgMenu{
+    width: 120px;
+    margin: 10px;
+}
+
+.imgMenu:hover{
+    box-shadow: 0 0 1em gray;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 10px;
+    left: 30%;
+    bottom: 2%;
+}
+
+h3{
+ position: relative;
+ font-size: 26px;
+}
